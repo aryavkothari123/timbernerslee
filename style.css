@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+
+}
+
+.profile {
+    border-radius: 50%
+}
+
+#welcome {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    background: linear-gradient(#40e0d0 0%, #27ae60 100%);
+    display: table;
+    z-index: 9;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background:white;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    color: coral;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+.links:hover{
+font-size: 25px;
+    text-decoration: underline;
+}
+#name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Zen Loop', cursive;
+}
+#bio{
+    text-align: center;
+    padding: 50px;    
+}
+p{
+    margin: 25px auto;
+    font-size: 17px;
+    max-width: 1000px;
+    line-height: 1.3;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    text-shadow: 2px 2px gainsboro;
+}
+.article:hover{
+    color: deepskyblue;
+}
+#articles a{
+    text-shadow: none !important;
+text-decoration: underline !important;    
+}
+#contact {
+    background-color: firebrick;
+}
+.contact_1 h3 {
+    display: inline;
+}
+.contact_1 a {
+    color: white;
+    text-shadow: none
+}
